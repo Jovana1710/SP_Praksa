@@ -1,0 +1,26 @@
+$font-stack: Roboto;
+$primary-color: #B50014;
+$position: absolute;
+$width-page: 1920px;
+$font-color: white;
+$header-font-size: 16px;
+$header-top:24px;
+$line-height: 24px;
+
+
+body{
+    line-height: $line-height;
+    background-color: black;
+    height: 6720px;
+    color: $font-color;
+    font-family: $font-stack;
+}
+
+
+.light-mode{
+    background-color: white;
+    color: black;
+}
+
+
+

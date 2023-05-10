@@ -1,0 +1,334 @@
+$font-stack: Roboto;
+$primary-color: #B50014;
+$position: absolute;
+$width-page: 1920px;
+$font-color: white;
+$header-font-size: 16px;
+$header-top:24px;
+$line-height: 24px;
+
+@mixin theme($theme: white){
+    box-sizing: border-box;
+    background: $theme;
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #FF0000;
+    border-radius: 40px;
+
+    width: 176px;
+    height: 48px;
+
+    text-align: center;
+    padding-top: 12px;
+    color: black;
+    font-family: 'Roboto';
+}
+
+@mixin theme1($theme: #A62120){
+    box-sizing: border-box;
+    background: $theme;
+    position: absolute;
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+
+    width: 176px;
+    height: 48px;
+
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+    font-family: 'Roboto';
+}
+
+
+.div1{
+    position: $position;
+    left: 0px;
+    top: 1520px;
+    width: 960px;
+    height: 648px;
+    background-color: $primary-color;
+}
+
+.h2_tittle1{
+    position: $position;
+    left: 416px;
+    top: 128px;
+    width: 232px;
+    height: 96px;
+
+    color: $font-color;
+    font-family: $font-stack;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.list{
+    position: $position;
+    width: 304px;
+    height: 128px;
+    right: 232px;
+    top: 248px;
+
+    font-family: $font-stack;
+    font-weight: 300;
+    font-size: 16px;
+    color: $font-color;
+}
+
+.button3{
+    @include theme($theme: white);
+    left: 424px;
+    top: 416px;
+}
+
+.img5{
+    position: $position;
+    left: 960px;
+    top: 1520px;
+    width: 960px;
+    height: 648px;
+}
+
+.h2_tittle2{
+    position: $position;
+    width: 208px;
+    height: 24px;
+    left: 856px;
+    top: 2280px;
+
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+   
+}
+
+.text1{
+    position: $position;
+    width: 424px;
+    height: 24px;
+    left: 752px;
+    top: 2320px;
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;;
+    text-align: center;
+   
+}
+
+.div2{
+    position: $position;
+    width: 656px;
+    height: 336px;
+    left: 632px;
+    top: 2408px;
+
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+   
+}
+
+.button4{
+    @include theme1($theme: #A62120);
+    left: 240px;
+    top: 208px;
+}
+
+.horizontal_line1{
+    position: $position;
+    width: 1096px;
+    height: 88px;
+    left: 408px;
+    top: 2744px;
+}
+
+.img6{
+    position: $position;
+    width: 264px;
+    height: 248px;
+    left: 408px;
+    top: 2874px;
+}
+
+.img7{
+    position: $position;
+    width: 264px;
+    height: 248px;
+    left: 688px;
+    top: 2874px;
+}
+
+.img8{
+    position: $position;
+    width: 264px;
+    height: 248px;
+    left: 968px;
+    top: 2874px;
+}
+
+.img9{
+    position: $position;
+    width: 264px;
+    height: 248px;
+    left: 1248px;
+    top: 2874px;
+}
+
+.container1{
+    position: $position;
+    text-align: center;
+    color: white;
+}
+
+.center1{
+    position: absolute;
+    left: 408px;
+    top: 3000px;
+    font-size: 26px;
+    background: rgba(64, 58, 58, 0.3);
+    width: 264px;
+   
+}
+
+.container2{
+    position: $position;
+    text-align: center;
+    color: white;
+}
+
+.center2{
+    position: absolute;
+    left: 688px;
+    top: 3000px;
+    font-size: 26px;
+    background: rgba(64, 58, 58, 0.3);
+    width: 264px;
+   
+}
+
+.container3{
+    position: $position;
+    text-align: center;
+    color: white;
+}
+
+.center3{
+    position: absolute;
+    left: 968px;
+    top: 3000px;
+    font-size: 26px;
+    background: rgba(64, 58, 58, 0.3);
+    width: 264px;
+   
+}
+
+.container4{
+    position: $position;
+    text-align: center;
+    color: white;
+}
+
+.center4{
+    position: absolute;
+    left: 1248px;
+    top: 3000px;
+    font-size: 26px;
+    background: rgba(64, 58, 58, 0.3);
+    width: 264px;
+   
+}
+
+.img10{
+    position: $position;
+    width: 960px;
+    height: 704px;
+    left: 0px;
+    top: 3344px;
+}
+
+.div3{
+    position: $position;
+    width: 960px;
+    height: 704px;
+    left: 960px;
+    top: 3344px;
+
+    background: #A62120;
+}
+
+.h2_tittle3{
+    position: $position;
+    width: 432px;
+    height: 40px;
+    left: 128px;
+    top: 184px;
+
+    font-family: $font-stack;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: $font-color;
+}
+
+.text2{
+    position: $position;
+    width: 400px;
+    height: 40px;
+    left: 128px;
+    top: 232px;
+
+    font-family: $font-stack;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: $font-color;
+}
+
+.text3{
+    position: $position;
+    width: 432px;
+    height: 224px;
+    left: 128px;
+    top: 320px;
+
+    font-family: $font-stack;
+    font-weight: 300;
+    font-size: 16px;
+    color: $font-color;
+
+
+}
+
+.img11{
+    position: $position;
+    left: 0px;
+    width: 1920px;
+    height: 544px;
+    top: 4032px;
+}
+
+.container5{
+    position: $position;
+    text-align: center;
+    color: white;
+}
+
+.h2_tittle4{
+    position: absolute;
+    left: 856px;
+    top: 4248px;
+
+    font-family: $font-stack;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 26px;
+}
+
+.button5{
+    @include theme($theme: white);
+    left: 864px;
+    top: 4352px;
+}

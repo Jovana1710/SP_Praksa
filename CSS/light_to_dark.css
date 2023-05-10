@@ -1,0 +1,14 @@
+body {
+  line-height: 24px;
+  background-color: black;
+  height: 6720px;
+  color: white;
+  font-family: Roboto;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+/*# sourceMappingURL=light_to_dark.css.map */

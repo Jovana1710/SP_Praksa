@@ -1,0 +1,350 @@
+$font-stack: Roboto;
+$primary-color: #B50014;
+$position: absolute;
+$width-page: 1920px;
+$font-color: white;
+$header-font-size: 16px;
+$header-top:24px;
+$line-height: 24px;
+
+@mixin theme($theme: #A62120){
+    box-sizing: border-box;
+    background: $theme;
+    position: absolute;
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+
+    width: 176px;
+    height: 48px;
+
+    text-align: center;
+    padding-top: 12px;
+    color: white;
+    font-family: 'Roboto';
+}
+
+.list{
+    position: absolute;
+    left: 80px;
+    top: 0px;
+    z-index: 2;
+}
+
+@media screen and (min-width: 414px){
+    .header{
+        position: absolute;
+        height: 89px;
+        background-color: $primary-color;
+        left: 0px;
+        top: 0px;
+    }
+
+    body{
+        font-size: 16px;
+        
+    }
+
+    .image14{
+        position: absolute;
+        height: 276px;
+    }
+}
+
+.header{
+    position: $position;
+    width: $width-page;
+    height: 96px;
+    background-color: $primary-color;
+    left: 0px;
+    top: 0px;
+}
+
+
+.header_1item{
+    position: $position;
+    left: 520px;
+    top: $header-top;
+
+    color: $font-color;
+    font-size: $header-font-size;
+
+    width: 104px;
+    height: 24px;
+}
+
+.header_2item{
+    position: $position;
+    left: 656px;
+    top: $header-top;
+
+    color: $font-color;
+    font-size: $header-font-size;
+
+    width: 72px;
+    height: 24px;
+}
+
+.header_3item{
+    position: $position;
+    left: 768px;
+    top: $header-top;
+
+    color: $font-color;
+    font-size: $header-font-size;
+
+    width: 112px;
+    height: 24px;
+}
+
+.header_4item{
+    position: $position;
+    left: 920px;
+    top: $header-top;
+
+    color: $font-color;
+    font-size: $header-font-size;
+
+    width: 96px;
+    height: 24px;
+}
+
+.header_5item{
+    position: $position;
+    left: 1056px;
+    top: $header-top;
+
+    color: $font-color;
+    font-size: $header-font-size;
+
+    width: 96px;
+    height: 24px;
+}
+
+.header_6item{
+    position: $position;
+    left: 1192px;
+    top: $header-top;
+
+    color: $font-color;
+    font-size: $header-font-size;
+
+    width: 88px;
+    height: 24px;
+}
+
+.header_7item{
+    position: $position;
+    left: 1312px;
+    top: $header-top;
+
+    color: $font-color;
+    font-size: $header-font-size;
+
+    width: 88px;
+    height: 24px;
+}
+
+.header_8item{
+    position: $position;
+    left: 1440px;
+    top: $header-top;
+
+    color: $font-color;
+    font-size: $header-font-size;
+
+    width: 56px;
+    height: 24px;
+}
+
+.header_9item{
+    position: $position;
+    left: 1560px;
+    top: $header-top;
+
+    color: $font-color;
+    font-size: $header-font-size;
+
+    width: 64px;
+    height: 24px;
+}
+
+.img_vector{
+    position: $position;
+    width: 24px;
+    height: 32px;
+
+    left: 1536px;
+    top: 32px;
+}
+
+.logo{
+    position: $position;
+    width: 172.2px;
+    height: 172.2px;
+    left: 304px;
+    top: 0px;
+    z-index: 2;
+}
+
+.header2{
+    position: $position;
+    width: $width-page;
+    height: 32px;
+    left: 0px;
+    top: 96px;
+    background-color: #252525;
+}
+
+.img_vector1{
+    position: $position;
+    left: 1168px;
+    top: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+.p_Opentime{
+    position: $position;
+    left: 1192px;
+    top: -8px;
+    color: $font-color;
+    font-size: $header-font-size;
+    font-family: $font-stack;
+}
+
+.image14{
+    position: $position;
+    width: $width-page;
+    height: 680px;
+    left: 0px;
+    top: 128px;
+}
+
+.div{
+    position: $position;
+    left: 0px;
+    top: 288px;
+    width: 632px;
+    height: 352px;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.tittle{
+    position: $position;
+    width: 248px;
+    height: 96px;
+    left: 304px;
+    top: 72px;
+
+    font-family: 'Roboto Condensed';
+    font-size: 40px;
+    line-height: 100%;
+
+    color: $font-color;
+}
+
+.div_text{
+    position: $position;
+    width: 280px;
+    height: 136px;
+    top: 176px;
+    left: 304px;
+
+    color: $font-color;
+    font-family: $font-stack;
+    font-size: $header-font-size;
+    
+}
+
+.h2_tittle{
+    position: $position;
+    left: 416px;
+    top: 968px;
+    width: 128px;
+    height: 46px;
+
+    font-size: 32px;
+
+}
+
+.tittle1{
+    position: $position;
+    width: 192px;
+    height: 16px;
+    left: 416px;
+    top: 1008px;
+
+    font-size: 20px;
+
+}
+
+.text{
+    position: $position;
+    left: 416px;
+    top: 1072px;
+    width: 432px;
+    height: 224px;
+
+    font-size: $header-font-size;
+    font-weight: 300;
+}
+
+.button1{
+    @include theme($theme: #A62120);
+    left: 416px;
+    top: 1360px;
+
+}
+
+.button2{
+    @include theme($theme: #A62120);
+    left: 656px;
+    top: 1360px;
+}
+
+.img1{
+    position: $position;
+    width: 544px;
+    height: 328px;
+    left: 968px;
+    top: 920px;
+}
+
+.img2{
+    position: $position;
+    width: 168px;
+    height: 168px;
+    left: 968px;
+    top: 1264px;
+}
+
+.img3{
+    position: $position;
+    width: 168px;
+    height: 168x;
+    left: 1152px;
+    top: 1264px;
+}
+
+.img4{
+    position: $position;
+    width: 168px;
+    height: 168px;
+    left: 1336px;
+    top: 1264px;
+}
+
+.button_light_to_dark{
+    position: $position;
+    background: #A62120;
+    border: 1 px solid white;
+    color: white;
+    left: 1700px;
+    top: 24px;
+    width: 100px;
+    height: 50px;
+    border-radius: 40%;
+    z-index: 2;
+}
