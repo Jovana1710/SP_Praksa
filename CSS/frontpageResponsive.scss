@@ -7,7 +7,7 @@ $header-font-size: 16px;
 $header-top:24px;
 $line-height: 24px;
 
-@mixin theme($theme: #A62120){
+@mixin theme1($theme: #A62120){
     box-sizing: border-box;
     background: $theme;
     position: absolute;
@@ -39,6 +39,10 @@ $line-height: 24px;
     padding-top: 12px;
     color: black;
     font-family: 'Roboto';
+}
+
+body{
+    text-align: center;
 }
 
 .header{
@@ -169,14 +173,14 @@ $line-height: 24px;
 }
 
 .button1{
-    @include theme($theme: #A62120);
+    @include theme1($theme: #A62120);
     left: 18px;
     top: 1417px;
 
 }
 
 .button2{
-    @include theme($theme: #A62120);
+    @include theme1($theme: #A62120);
     left: 214px;
     top: 1417px;
 }
@@ -316,16 +320,16 @@ $line-height: 24px;
 }
 
 .button4{
-    @include theme($theme: #A62120);
+    @include theme1($theme: #A62120);
     left: 122px;
     top: 2918px;
 }
 
 .horizontal_line1{
     position: $position;
-    width: $width-page;
+    width: 1098px;
     height: 85px;
-    left: 0px;
+    left: -342px;
     top: 3027px;
 }
 
@@ -360,6 +364,697 @@ $line-height: 24px;
     left: 213px;
     top: 3338px;
 }
+
+.container1{
+    position: $position;
+    text-align: center;
+    color: white;
+}
+
+.center1{
+    position: absolute;
+    left: 16px;
+    top: 3230px;
+    font-size: 26px;
+    background: rgba(64, 58, 58, 0.3);
+    width: 187px;
+   
+}
+
+.container2{
+    position: $position;
+    text-align: center;
+    color: white;
+}
+
+.center2{
+    position: absolute;
+    left: 213px;
+    top: 3230px;
+    font-size: 26px;
+    background: rgba(64, 58, 58, 0.3);
+    width: 187px;
+   
+}
+
+.container3{
+    position: $position;
+    text-align: center;
+    color: white;
+}
+
+.center3{
+    position: absolute;
+    left: 16px;
+    top: 3412px;
+    font-size: 26px;
+    background: rgba(64, 58, 58, 0.3);
+    width: 187px;
+   
+}
+
+.container4{
+    position: $position;
+    text-align: center;
+    color: white;
+}
+
+.center4{
+    position: absolute;
+    left: 213px;
+    top: 3412px;
+    font-size: 26px;
+    background: rgba(64, 58, 58, 0.3);
+    width: 187px;
+   
+}
+
+.div3{
+    position: $position;
+    width: $width-page;
+    height: 556px;
+    left: 0px;
+    top: 3591px;
+
+    background: $primary-color;
+    text-align: center;
+}
+
+.h2_tittle3{
+    position: $position;
+    width: 276px;
+    height: 84px;
+    left: 71px;
+   // top: 37px;
+   bottom: 435px;
+
+    font-family: $font-stack;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    color: $font-color;
+}
+
+.text2{
+    position: $position;
+    width: 302px;
+    height: 42px;
+    left: 59px;
+    //top: 141px;
+    bottom: 373px;
+
+    font-family: $font-stack;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: $font-color;
+}
+
+.text3{
+    position: $position;
+    width: 368px;
+    height: 255px;
+    left: 23px;
+  //  top: 271px;
+    bottom: 30px;
+
+    font-family: $font-stack;
+    font-weight: 300;
+    font-size: 16px;
+    color: $font-color;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.img10{
+    position: $position;
+    width: $width-page;
+    height: 290px;
+    left: 0px;
+    top: 4147px;
+}
+
+.img11{
+    position: $position;
+    left: -8px;
+    width: $width-page;
+    height: 520px;
+    top: 4400px;
+}
+
+.container5{
+    position: $position;
+    text-align: center;
+    color: white;
+}
+
+.h2_tittle4{
+    position: absolute;
+    left: 98px;
+    top: 4560px;
+    width: 218px;
+    height: 26px;
+
+    font-family: $font-stack;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 26px;
+}
+
+.button5{
+    @include theme($theme: white);
+    left: 105px;
+    top: 4650px;
+}
+
+.logo1{
+    position: $position;
+    width: 365px;
+    height: 200px;
+    left: 25px;
+    top: 5020px;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.h2_tittle5{
+    position: $position;
+    width: 383px;
+    height: 126px;
+    left: 12px;
+    top: 5336px;
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+
+}
+
+.button6{
+    @include theme1($theme: #A62120);
+    left: 119px;
+    top: 5518px;
+}
+
+.horizontal_line2{
+    position: $position;
+    width: 1098px;
+    height: 85px;
+    left: -342px;
+    top: 5621px;
+}
+
+.h2_tittle6{
+    position: $position;
+    width: 240px;
+    height: 40px;
+    left: 88px;
+    top: 5774px;
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+
+}
+
+.img_reward1{
+    position: $position;
+    width: 131px;
+    height: 131px;
+    left: 64px;
+    top: 5895px;
+}
+
+.reward1_text{
+    position: $position;
+    width: 141px;
+    height: 45px;
+    left: 59px;
+    top: 6043px;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.img_reward2{
+    position: $position;
+    width: 136px;
+    height: 132px;
+    left: 228px;
+    top: 5895px;
+}
+
+.reward2_text{
+    position: $position;
+    width: 118px;
+    height: 45px;
+    left: 237px;
+    top: 6043px;
+
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+ 
+
+}
+
+.img_reward3{
+    position: $position;
+    width: 134px;
+    height: 134px;
+    left: 64px;
+    top: 6132px;
+}
+
+.reward3_text{
+    position: $position;
+    width: 125px;
+    height: 45px;
+    left: 67px;
+    top: 6280px;
+
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+ 
+}
+
+
+.img_reward4{
+    position: $position;
+    width: 134px;
+    height: 118px;
+    left: 228px;
+    top: 6132px;
+}
+
+.reward4_text{
+    position: $position;
+    width: 126px;
+    height: 45px;
+    left: 233px;
+    top: 6280px;
+
+ 
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+
+}
+
+.horizontal_line3{
+    position: $position;
+    width: 1098px;
+    height: 85px;
+    left: -342px;
+    top: 6425px;
+}
+
+.text4{
+    position: $position;
+    top: 6595px;
+    left: 158px;
+    width: 107px;
+    height: 20px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    opacity: 0.46;
+}
+
+.h2_tittle7{
+    position: $position;
+    width: 302px;
+    height: 85px;
+    left: 59px;
+    top: 6628px;
+
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+
+}
+
+.div5{
+    box-sizing: border-box;
+
+    position: $position;
+    left: 25px;
+    top: 6798px;
+
+    background: #FFFFFF;
+    opacity: 0.12;
+    border: 1px solid #000000;
+
+    width: 367px;
+    height: 414px;
+}
+
+.div_text3{
+    position: $position;
+    left: 32px;
+    top: 6983px;
+    width: 342px;
+    height: 219px;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.text6{
+    position: $position;
+    left: 155px;
+    top: 7129px;
+    width: 101px;
+    height: 19px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.text7{
+    position: $position;
+    left: 188px;
+    top: 7155px;
+    width: 36px;
+    height: 19px;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.star1{
+    position: $position;
+    left: 162.5px;
+    top: 6934px;
+    width: 20px;
+    height: 20px;
+}
+
+.star2{
+    position: $position;
+    left: 194px;
+    top: 6929px;
+    width: 30px;
+    height: 30px;
+}
+
+.star3{
+    position: $position;
+    left: 234.5px;
+    top: 6934px;
+    width: 20px;
+    height: 20px;
+}
+
+.icon{
+    position: $position;
+    width: 81px;
+    height: 81px;
+    left: 169px;
+    top: 6834px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.button7{
+    @include theme1($theme: #A62120);
+    left: 124px;
+    top: 7355px;
+}
+
+.footer1{
+    position: $position;
+    width: $width-page;
+    height: 554px;
+    background-color: #B50014;
+    top: 7480px;
+    left: 0px;
+    right: 0px;
+}
+
+
+
+.img_logo{
+    position: $position;
+    width:130px ;
+    height: 130px;
+    left: 147px;
+    top: 205px;
+}
+
+.text9{
+    position: absolute;
+    left: 116px;
+    top: 38px;
+    width: 192px;
+    height: 112px;
+
+    font-family: $font-stack;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: $font-color;
+}
+
+.text10{
+    position: absolute;
+    left: 134px;
+    top: 408px;
+    width: 157px;
+    height: 19px;
+   
+    font-family: $font-stack;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $font-color;
+}
+
+.img_facebook{
+    position: $position;
+    left: 86px;
+    top: 455px;
+    width: 220px;
+    height: 55px;
+}
+
+.footer2{
+    position: $position;
+    top: 8034px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: $width-page;
+    height: 135px;
+    background-color: #66000B;
+}
+
+.footer_left{
+    position: $position;
+    left: 63px;
+    top: 33px;
+    color: white;
+    height: 28px;
+    width: 288px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.footer_right{
+    position: $position;
+    left: 116px;
+    top: 79px;
+    color: white;
+    height: 28px;
+    width: 220px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.img_vector1,
+.header_1item,
+.header_2item,
+.header_3item,
+.header_4item,
+.header_5item,
+.header_6item,
+.header_7item,
+.header_8item,
+.div_text2,
+.text5,
+.komma1,
+.komma2,
+.img12,
+.text8,
+.div_text4{
+    display: none;
+}
+
+.header_9item{
+    position: $position;
+    left: 267px;
+    top: 48px;
+    width: 65px;
+    height: 16px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 414px;
+  height: 276px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  margin: auto;
+}
+
+.mySlides {
+  display: block;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 350px;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev{
+  left: 200px;
+  border-radius: 3px 0 0 3px;
+}
+
+.next {
+  right: 300px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  position: absolute;
+  cursor: circle;
+  height: 15px;
+  width: 15px;
+  top: 720px;
+  left: 906px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+}
+
+.dot1 {
+  position: absolute;
+  cursor: circle;
+  height: 15px;
+  width: 15px;
+  top: 720px;
+  left: 941px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+}
+
+.dot2 {
+  position: absolute;
+  cursor: circle;
+  height: 15px;
+  width: 15px;
+  top: 720px;
+  left: 980px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+}
+
+.dot3 {
+  position: absolute;
+  cursor: circle;
+  height: 15px;
+  width: 15px;
+  top: 720px;
+  left: 1019px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: block;
+}
+
+.active, .dot:hover {
+  background-color: #A62120;
+}
+
+.active, .dot1:hover {
+  background-color: #A62120;
+}
+
+.active, .dot2:hover {
+  background-color: #A62120;
+}
+
+.active, .dot3:hover {
+  background-color: #A62120;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
 
 
 
